@@ -11,7 +11,6 @@ A social media and network analysis project comparing BTS (ARMY) and BLACKPINK (
 kpop-youtube-network-analysis/
 ├── bts_blackpink_youtube_analysis.ipynb     # Main analysis notebook
 ├── outputs/
-│   ├── data/                                # Processed CSV files
 │   ├── plots/                               # Visualisation outputs
 │   └── networks/                            # .gefx network files
 └── README.md
@@ -29,6 +28,8 @@ How do BTS and BLACKPINK fan communities compare in terms of user influence, com
 - **Videos:** 10 official music videos per artist (20 total)
 - **Raw comments:** 18,735 across both fandoms
 - **After preprocessing:** 10,367 comments, 14,537 unique commenters
+
+> **Note:** Raw comment data is not included in this repository in compliance with YouTube's Terms of Service. To reproduce the dataset, obtain a YouTube Data API v3 key from the [Google Cloud Console](https://console.cloud.google.com/) and run the data collection cells in the notebook. See [YouTube Data API v3 documentation](https://developers.google.com/youtube/v3) for setup instructions.
 
 
 ## Methodology
